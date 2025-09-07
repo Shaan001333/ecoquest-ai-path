@@ -22,6 +22,8 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          light: "hsl(var(--primary-light))",
+          dark: "hsl(var(--primary-dark))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -38,6 +40,11 @@ export default {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
+          light: "hsl(var(--accent-light))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -47,16 +54,28 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
-        },
+        // EcoQuest specific colors
+        "eco-coin": "hsl(var(--eco-coin))",
+        "eco-coin-glow": "hsl(var(--eco-coin-glow))",
+        "tree-brown": "hsl(var(--tree-brown))",
+        "leaf-green": "hsl(var(--leaf-green))",
+        "badge-gold": "hsl(var(--badge-gold))",
+        "progress-bg": "hsl(var(--progress-bg))",
+      },
+      backgroundImage: {
+        "gradient-nature": "var(--gradient-nature)",
+        "gradient-earth": "var(--gradient-earth)",
+        "gradient-sky": "var(--gradient-sky)",
+        "gradient-coin": "var(--gradient-coin)",
+      },
+      boxShadow: {
+        "nature": "var(--shadow-nature)",
+        "coin": "var(--shadow-coin)",
+        "card": "var(--shadow-card)",
+      },
+      transitionTimingFunction: {
+        "nature": "var(--transition-nature)",
+        "bounce-gentle": "var(--bounce-gentle)",
       },
       borderRadius: {
         lg: "var(--radius)",
